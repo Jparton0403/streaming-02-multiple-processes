@@ -1,0 +1,23 @@
+PS C:\Users\Jcp45\streaming-02-multiple-processes>  c:; cd 'c:\Users\Jcp45\streaming-02-multiple-processes'; & 'C:\Users\Jcp45\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\Jcp45\.vscode\extensions\ms-python.python-2023.14.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '57059' '--' 'c:\Users\Jcp45\streaming-02-multiple-processes\process_streaming_JoshuaParton.py' 
+2023-09-01 18:08:20,812 - INFO - ===============================================
+2023-09-01 18:08:20,812 - INFO - Starting fake streaming process.
+2023-09-01 18:08:20,813 - INFO - Starting to stream data from Pathogen detection Salmonella enterica.csv to ('localhost', 9999).
+2023-09-01 18:08:20,813 - INFO - Opened for reading: Pathogen detection Salmonella enterica.csv.
+2023-09-01 18:08:20,813 - INFO - Skipped header row: ['Organism group', 'Strain', 'Isolate identifiers', 'Serovar', 'Isolate', 'Create date']
+2023-09-01 18:08:20,817 - INFO - Sent: b'[Salmonella enterica, SQ0227, "93-6175B","SQ0227","SRS426868", enteritidis, PDT000000002.3, 2014-01-04T17:03:07Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:23,820 - INFO - Sent: b'[Salmonella enterica, SQ0228, "93-2836A","SQ0228","SRS426867", enteritidis, PDT000000003.3, 2014-01-04T17:03:07Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:26,822 - INFO - Sent: b'[Salmonella enterica, SQ0229, "93-7741","SQ0229","SRS426869", enteritidis, PDT000000004.3, 2014-01-04T17:03:07Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:29,824 - INFO - Sent: b'[Salmonella enterica, Gen_001782, "Gen_001782","SRS426891", Heidelberg, PDT000000005.4, 2014-01-04T17:03:07Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:32,826 - INFO - Sent: b'[Salmonella enterica, Gen_001783, "Gen_001783","SRS426892", Heidelberg, PDT000000006.4, 2014-01-04T17:03:07Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:35,827 - INFO - Sent: b'[Salmonella enterica, Gen_001784, "Gen_001784","SRS426918", Kentucky, PDT000000007.4, 2014-01-04T17:03:07Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:38,829 - INFO - Sent: b'[Salmonella enterica, Gen_001792, "Gen_001792","SRS426919", Montevideo/Oranienburg, PDT000000008.4, 2014-01-04T17:03:07Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:41,831 - INFO - Sent: b'[Salmonella enterica, CFSAN002042, "CFSAN002042","SRS444953", Enteritidis, PDT000000115.3, 2015-02-11T08:07:51Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:44,832 - INFO - Sent: b'[Salmonella enterica, CFSAN002043, "CFSAN002043","SRS444955", Enteritidis, PDT000000116.3, 2015-02-11T08:07:52Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:47,834 - INFO - Sent: b'[Salmonella enterica, CFSAN002044, "CFSAN002044","SRS397553", Enteritidis, PDT000000117.3, 2015-02-11T10:08:11Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:50,835 - INFO - Sent: b'[Salmonella enterica, CFSAN002045, "CFSAN002045","SRS397554", Enteritidis, PDT000000118.3, 2015-02-11T10:08:11Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:53,836 - INFO - Sent: b'[Salmonella enterica, CFSAN002046, "CFSAN002046","SRS397555", Enteritidis, PDT000000119.4, 2015-02-11T10:08:11Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:56,837 - INFO - Sent: b'[Salmonella enterica, NY_BAC0400001470, "NY_BAC0400001470","SRS468293", Typhimurium, PDT000000121.3, 2015-02-11T08:07:52Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:08:59,838 - INFO - Sent: b'[Salmonella enterica, NY_BAC0400002389, "NY_BAC0400002389","SRS468294", Typhimurium, PDT000000122.3, 2015-02-11T08:07:52Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:09:02,840 - INFO - Sent: b'[Salmonella enterica, NY_BAC0400003476, "NY_BAC0400003476","SRS468295", Typhimurium, PDT000000123.3, 2015-02-11T08:07:52Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:09:05,843 - INFO - Sent: b'[Salmonella enterica, NY_BAC0400004072, "N505","NY_BAC0400004072","SRS468296", Schwarzengrund, PDT000000124.4, 2015-02-11T08:07:52Z]' on port 9999. Hit CTRL-c to stop.
+2023-09-01 18:09:08,844 - INFO - Sent: b'[Salmonella enterica, NY_BAC0400012517, "NY_BAC0400012517","SRS468297", Anatum, PDT000000125.3, 2015-02-11T08:07:52Z]' on port 9999. Hit CTRL-c to stop.
