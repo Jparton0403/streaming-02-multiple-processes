@@ -2,18 +2,7 @@
 
 Streaming Process: Uses port 9999
 
-Create a fake stream of data. 
-Use temperature data from the batch process.
-
-Reverse the order of the rows to read OLDEST data first.
-
-Important! 
-
-We'll stream forever - or until we read the end of the file. 
-Use use Ctrl-C to stop. (Hit Control key and c key at the same time.)
-
-Explore more at 
-https://wiki.python.org/moin/UdpCommunication
+Creates a data stream of Pathogen detection Salmonella enterica.csv
 
 """
 
@@ -38,14 +27,11 @@ PORT = 9999
 ADDRESS_TUPLE = (HOST, PORT)
 INPUT_FILE_NAME = "Pathogen detection Salmonella enterica.csv"
 
-# Define program functions (bits of reusable code)
-
+#reads the data from our csv
 
 def prepare_message_from_row(row):
-    """Prepare a binary message from a given row."""
     Organism_group, Strain, Isolate_identifiers, Serovar, Isolate, Create_date= row
     # use an fstring to create a message from our data
-    # notice the f before the opening quote for our string?
     fstring_message = f"[{Organism_group}, {Strain}, { Isolate_identifiers}, { Serovar}, { Isolate}, { Create_date}]"
 
     # prepare a binary (1s and 0s) message to stream
@@ -85,10 +71,6 @@ def stream_row(input_file_name, address_tuple):
             sock_object.sendto(MESSAGE, address_tuple)
             logging.info(f"Sent: {MESSAGE} on port {PORT}. Hit CTRL-c to stop.")
             time.sleep(3) # wait 3 seconds between messages
-
-# ---------------------------------------------------------------------------
-# If this is the script we are running, then call some functions and execute code!
-# ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     try:
